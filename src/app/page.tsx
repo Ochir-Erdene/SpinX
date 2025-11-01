@@ -1,5 +1,8 @@
+"use client";
+
 import Card from "@/components/ui/card";
 import productsData from "@/data/products.json";
+import Marquee from "react-fast-marquee";
 
 export default function Home() {
   const products = productsData.products;

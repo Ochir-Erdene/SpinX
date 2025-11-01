@@ -1,8 +1,12 @@
 "use client";
 
+import { useCart } from "@/context/cart-context";
+
 export default function CartButton() {
+  const { openCart } = useCart();
+
   return (
-    <button aria-label="Open cart">
+    <button aria-label="Open cart" onClick={openCart}>
       <div className="relative flex h-11 w-11 items-center justify-center rounded-md border border-neutral-200 text-black transition-colors dark:border-neutral-700 dark:text-white">
         <svg
           xmlns="http://www.w3.org/2000/svg"

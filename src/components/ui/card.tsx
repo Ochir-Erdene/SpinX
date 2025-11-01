@@ -87,7 +87,7 @@ export default function Card({
 
   if (size === "grid") {
     return (
-      <li className={config.containerClass}>
+      <li className={`${config.containerClass} ${className}`}>
         <Link
           href={`/product/${id}`}
           className="relative inline-block h-full w-full"

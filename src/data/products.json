@@ -51,61 +51,19 @@
     },
     {
       "id": "acme-shoes-001",
-      "name": "Acme Classic Sneakers - White",
-      "category": "footwear",
-      "price": 79.99,
-      "description": "Comfortable canvas sneakers with the signature Acme style. Perfect for casual everyday wear with premium cushioning.",
-      "inStock": true,
-      "images": [
-        "/images/footwear/shoes-1.png"
-      ],
-      "colors": [
-        { "name": "White", "value": "white", "image": "/images/footwear/shoes-1.png" }
-      ],
-      "sizes": ["US 7", "US 8", "US 9", "US 10", "US 11", "US 12"]
-    },
-    {
-      "id": "acme-shoes-002",
-      "name": "Acme Classic Sneakers - Black",
-      "category": "footwear",
-      "price": 79.99,
-      "description": "Comfortable canvas sneakers with the signature Acme style. Perfect for casual everyday wear with premium cushioning.",
-      "inStock": true,
-      "images": [
-        "/images/footwear/shoes-2.png"
-      ],
-      "colors": [
-        { "name": "Black", "value": "black", "image": "/images/footwear/shoes-2.png" }
-      ],
-      "sizes": ["US 7", "US 8", "US 9", "US 10", "US 11", "US 12"]
-    },
-    {
-      "id": "acme-shoes-003",
-      "name": "Acme Sport Sneakers - Red",
-      "category": "footwear",
-      "price": 89.99,
-      "description": "Athletic sneakers designed for performance and style. Features breathable mesh and responsive cushioning.",
-      "inStock": true,
-      "images": [
-        "/images/footwear/shoes-3.png"
-      ],
-      "colors": [
-        { "name": "Red", "value": "red", "image": "/images/footwear/shoes-3.png" }
-      ],
-      "sizes": ["US 7", "US 8", "US 9", "US 10", "US 11", "US 12"]
-    },
-    {
-      "id": "acme-shoes-004",
       "name": "Acme Sport Sneakers - Blue",
       "category": "footwear",
       "price": 89.99,
       "description": "Athletic sneakers designed for performance and style. Features breathable mesh and responsive cushioning.",
       "inStock": true,
       "images": [
+        "/images/footwear/shoes-1.png",
+        "/images/footwear/shoes-2.png",
+        "/images/footwear/shoes-3.png",
         "/images/footwear/shoes-4.png"
       ],
       "colors": [
-        { "name": "Blue", "value": "blue", "image": "/images/footwear/shoes-4.png" }
+        { "name": "Blue", "value": "blue", "image": "/images/footwear/shoes-1.png" }
       ],
       "sizes": ["US 7", "US 8", "US 9", "US 10", "US 11", "US 12"]
     },
@@ -258,15 +216,19 @@
     },
     {
       "id": "acme-tshirt-003",
-      "name": "Acme Circles T-Shirt - Blue",
+      "name": "Acme Circles T-Shirt",
       "category": "shirts",
       "price": 27.99,
       "description": "Unique geometric design t-shirt featuring colorful circles. Made from ultra-soft cotton for maximum comfort.",
       "inStock": true,
       "images": [
+        "/images/shirts/t-shirt-1.png",
+        "/images/shirts/t-shirt-2.png",
         "/images/shirts/t-shirt-circles-blue.png"
       ],
       "colors": [
+        { "name": "Black", "value": "black", "image": "/images/shirts/t-shirt-2.png" },
+        { "name": "White", "value": "white", "image": "/images/shirts/t-shirt-1.png" },
         { "name": "Blue", "value": "blue", "image": "/images/shirts/t-shirt-circles-blue.png" }
       ],
       "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
