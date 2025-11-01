@@ -1,65 +1,95 @@
-import Image from "next/image";
+import Card from "@/components/ui/card";
+import productsData from "@/data/products.json";
 
 export default function Home() {
+  const products = productsData.products;
+
+  // Get featured products for the hero section
+  const heroProduct = products.find((p) => p.id === "acme-tshirt-003"); // Circles T-Shirt
+  const bagProduct = products.find((p) => p.id === "acme-bag-001"); // Tote Bag
+  const cupProduct = products.find((p) => p.id === "acme-cup-001"); // Ceramic Mug
+
+  // Get products for carousel (showing a selection of products)
+  const carouselProducts = [
+    products.find((p) => p.id === "acme-cup-001"),
+    products.find((p) => p.id === "acme-hoodie-001"),
+    products.find((p) => p.id === "acme-onesie-001"),
+    products.find((p) => p.id === "acme-baby-cap-001"),
+  ].filter((p): p is NonNullable<typeof p> => p !== undefined);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+    <>
+      {/* Hero Grid Section */}
+      <section className="mx-auto grid max-w-screen-2xl gap-4 px-4 pb-4 md:grid-cols-6 md:grid-rows-2 lg:max-h-[calc(100vh-200px)]">
+        {/* Hero Card - Takes up 4 columns and 2 rows on desktop */}
+        <div className="md:col-span-4 md:row-span-2">
+          {heroProduct && (
+            <Card
+              id={heroProduct.id}
+              name={heroProduct.name}
+              price={heroProduct.price}
+              image={heroProduct.images[0]}
+              size="hero"
+              className="relative block aspect-square h-full w-full"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          )}
         </div>
-      </main>
-    </div>
+
+        {/* Large Card - Top Right */}
+        <div className="md:col-span-2 md:row-span-1">
+          {bagProduct && (
+            <Card
+              id={bagProduct.id}
+              name={bagProduct.name}
+              price={bagProduct.price}
+              image={bagProduct.images[0]}
+              size="large"
+              className="relative block aspect-square h-full w-full"
+            />
+          )}
+        </div>
+
+        {/* Large Card - Bottom Right */}
+        <div className="md:col-span-2 md:row-span-1">
+          {cupProduct && (
+            <Card
+              id={cupProduct.id}
+              name={cupProduct.name}
+              price={cupProduct.price}
+              image={cupProduct.images[0]}
+              size="large"
+              className="relative block aspect-square h-full w-full"
+            />
+          )}
+        </div>
+      </section>
+
+      {/* Horizontal Scrolling Carousel Section */}
+      <div className="w-full overflow-x-auto pb-6 pt-1">
+        <ul className="flex animate-carousel gap-4">
+          {carouselProducts.map((product) => (
+            <Card
+              key={product.id}
+              id={product.id}
+              name={product.name}
+              price={product.price}
+              image={product.images[0]}
+              size="carousel"
+            />
+          ))}
+          {/* Duplicate products for infinite scroll effect */}
+          {carouselProducts.map((product) => (
+            <Card
+              key={`${product.id}-duplicate`}
+              id={product.id}
+              name={product.name}
+              price={product.price}
+              image={product.images[0]}
+              size="carousel"
+            />
+          ))}
+        </ul>
+      </div>
+    </>
   );
 }
