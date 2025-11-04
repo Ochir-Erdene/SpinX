@@ -3,8 +3,8 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Card from "@/components/ui/card";
-import AddToCart from "@/components/ui/add-to-cart";
-import VariantSelector from "@/components/ui/variant-selector";
+import AddToCart from "@/components/ui/button";
+import VariantSelector from "@/components/ui/songolt";
 import productsData from "@/data/products.json";
 import { useState, use } from "react";
 
@@ -31,9 +31,9 @@ export default function ProductPage({
     setSelectedColor(colorValue);
     // Find the color object and get its image
     const color = product.colors?.find((c) => c.value === colorValue);
-    if (color && color.image) {
+    if (color) {
       // Find the index of this image in the product images array
-      const imageIndex = product.images.findIndex((img) => img === color.image);
+      const imageIndex = product.images.findIndex((img) => img);
       if (imageIndex !== -1) {
         setSelectedImageIndex(imageIndex);
       }

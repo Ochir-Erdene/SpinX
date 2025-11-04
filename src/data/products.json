@@ -1,252 +1,207 @@
 {
   "products": [
     {
-      "id": "acme-bag-001",
-      "name": "Acme Tote Bag",
-      "category": "bags",
-      "price": 29.99,
-      "description": "Durable canvas tote bag perfect for everyday use. Features reinforced handles and a spacious interior to carry all your essentials.",
+      "id": "jpg-la-male",
+      "name": "Jean paul gaultier La Male Le Parfum",
+      "category": "la-male",
+      "price": 120.00,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "inStock": true,
       "images": [
-        "/images/bags/bag-black.png",
-        "/images/bags/bag-white.png"
+        "/images/jpg/jpg-parfum.png",
+        "/images/jpg/jpg-parfum-2.png"
       ],
       "colors": [
-        { "name": "Black", "value": "black", "image": "/images/bags/bag-black.png" },
-        { "name": "White", "value": "white", "image": "/images/bags/bag-white.png" }
+        { "name": "Black", "value": "black"}
       ],
-      "sizes": ["One Size"]
+      "sizes": ["75ml", "125ml", "200ml"]
     },
     {
-      "id": "acme-cup-001",
-      "name": "Acme Ceramic Mug",
-      "category": "drinkware",
-      "price": 15.99,
-      "description": "High-quality ceramic mug with the Acme logo. Dishwasher and microwave safe. Holds 12oz of your favorite beverage.",
+      "id": "jpg-la-male-elixir",
+      "name": "Jean paul gaultier La",
+      "category": "la-male",
+      "price": 150.00,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "inStock": true,
       "images": [
-        "/images/drinkware/cup-black.png",
-        "/images/drinkware/cup-white.png"
+        "/images/jpg/jpg-elixir.png",
+        "/images/jpg/jpg-elixir-2.png"
       ],
       "colors": [
-        { "name": "Black", "value": "black", "image": "/images/drinkware/cup-black.png" },
-        { "name": "White", "value": "white", "image": "/images/drinkware/cup-white.png" }
+        { "name": "Gold", "value": "gold"}
       ],
-      "sizes": ["12oz"]
+      "sizes": ["75ml", "125ml", "200ml"]
     },
     {
-      "id": "acme-keyboard-001",
-      "name": "Acme Mechanical Keyboard",
-      "category": "electronics",
-      "price": 129.99,
-      "description": "Premium mechanical keyboard with RGB backlighting and customizable keys. Features Cherry MX switches for the perfect typing experience.",
+      "id": "jpg-le-male-elixir-collector",
+      "name": "Jean paul gaultier Le  Male Elixir Collector",
+      "category": "la-male",
+      "price": 180.00,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "inStock": true,
+      "images": [
+        "/images/jpg/jpg-collector.png"
+      ],
+      "colors": [
+        { "name": "Gold", "value": "gold"}
+      ],
+      "sizes": ["75ml", "125ml", "200ml"]
+    },
+    {
+      "id": "le-beau-flower",
+      "name": "Le Beau Flower Edition",
+      "category": "le-beau",
+      "price": 150.00,
+      "description": "Out of Stock",
       "inStock": false,
       "images": [
-        "/images/electronics/keyboard.png"
+        "/images/jpg/jpg-flower.png",
+        "/images/jpg/jpg-flower-2.png"
       ],
-      "colors": [
-        { "name": "Black", "value": "black", "image": "/images/electronics/keyboard.png" }
-      ],
-      "sizes": ["Full Size"]
+      "sizes": ["75ml", "125ml", "200ml"]
     },
     {
-      "id": "acme-shoes-001",
-      "name": "Acme Sport Sneakers - Blue",
-      "category": "footwear",
-      "price": 89.99,
-      "description": "Athletic sneakers designed for performance and style. Features breathable mesh and responsive cushioning.",
+      "id": "le-beau-paradise-garder",
+      "name": "Le Beau Paradise Garder",
+      "category": "le-beau",
+      "price": 130.00,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "inStock": true,
       "images": [
-        "/images/footwear/shoes-1.png",
-        "/images/footwear/shoes-2.png",
-        "/images/footwear/shoes-3.png",
-        "/images/footwear/shoes-4.png"
+        "/images/jpg/jpg-paradise.png",
+        "/images/jpg/jpg-paradise-2.png"
       ],
       "colors": [
-        { "name": "Blue", "value": "blue", "image": "/images/footwear/shoes-1.png" }
+        { "name": "Green", "value": "green"}
       ],
-      "sizes": ["US 7", "US 8", "US 9", "US 10", "US 11", "US 12"]
+      "sizes": ["75ml", "125ml"]
     },
     {
-      "id": "acme-baby-cap-001",
-      "name": "Acme Baby Cap",
-      "category": "headwear",
-      "price": 12.99,
-      "description": "Soft cotton cap for babies and toddlers. Features the cute Acme logo and adjustable strap for a perfect fit.",
+      "id": "jpg-le-beau-le-parfum",
+      "name": "Jean paul gaultier Le Beau Le Parfum",
+      "category": "le-beau",
+      "price": 120.00,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "inStock": true,
       "images": [
-        "/images/headwear/baby-cap-black.png",
-        "/images/headwear/baby-cap-gray.png",
-        "/images/headwear/baby-cap-white.png"
+        "/images/jpg/jpg-le-beau-le.png",
+        "/images/jpg/jpg-le-beau-le-2.png"
       ],
       "colors": [
-        { "name": "Black", "value": "black", "image": "/images/headwear/baby-cap-black.png" },
-        { "name": "Gray", "value": "gray", "image": "/images/headwear/baby-cap-gray.png" },
-        { "name": "White", "value": "white", "image": "/images/headwear/baby-cap-white.png" }
+        { "name": "Dark Green", "value": "dark-green"}
+      ],
+      "sizes": ["75ml", "125ml", "200ml"]
+    },
+    {
+      "id": "scandal-pour-homme",
+      "name": "Scandal Pour Homme Intense",
+      "category": "scandal",
+      "price": 160.00,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "inStock": true,
+      "images": [
+        "/images/jpg/scandal.png",
+        "/images/jpg/scandal-2.png"
+      ],
+      "colors": [
+        { "name": "Black", "value": "black"}
+      ],
+      "sizes": ["50ml", "100ml", "150ml"]
+    },
+    {
+      "id": "scandal-pour-homme-absolu",
+      "name": "Scandal Pour Homme Absolu",
+      "category": "scandal",
+      "price": 170.00,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "images": [
+        "/images/jpg/scandal-absolu.png",
+        "/images/jpg/scandal-absolu-2.png"
+      ],
+      "colors": [
+        { "name": "Gold", "value": "gold"}
+      ],
+      "sizes": ["50ml", "100ml", "150ml"]
+    },
+    {
+      "id": "gaultier-divine-elixir",
+      "name": "Gaultier Divine Elixir",
+      "category": "divine",
+      "price": 180.00,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "inStock": true,
+      "images": [
+        "/images/jpg/gaultier-divine-elixir.png",
+        "/images/jpg/gaultier-divine-elixir-2.png"
+      ],
+      "colors": [
+        { "name": "Brown", "value": "brown"}
+      ],
+      "sizes": ["50ml", "100ml", "150ml"]
+    },
+    {
+      "id": "gaultier-divine-collector",
+      "name": "Gaultier Divine Collector",
+      "category": "divine",
+      "price": 200.00,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "inStock": true,
+      "images": [
+        "/images/jpg/gaultier-divine-collector.png",
+        "/images/jpg/gaultier-divine-collector-2.png"
+      ],
+      "colors": [
+        { "name": "Gold", "value": "gold"}
+      ],
+      "sizes": ["50ml", "100ml", "150ml"]
+    },
+    {
+      "id": "gaultier-divine",
+      "name": "Gaultier Divine",
+      "category": "divine",
+      "price": 130.00,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "inStock": true,
+      "images": [
+        "/images/jpg/gaultier-divine.png",
+        "/images/jpg/gaultier-divine-2.png"
+      ],
+      "colors": [
+        { "name": "Gold", "value": "gold"}
       ],
       "sizes": ["One Size"]
     },
     {
-      "id": "acme-hoodie-001",
-      "name": "Acme Classic Hoodie - Gray",
-      "category": "hoodies",
-      "price": 49.99,
-      "description": "Cozy pullover hoodie made from premium cotton blend. Features kangaroo pocket and adjustable drawstring hood.",
+      "id": "la-belle-flower",
+      "name": "La belle Flower Edition",
+      "category": "la-belle",
+      "price": 140.00,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "inStock": true,
       "images": [
-        "/images/hoodies/hoodie-1.png"
+        "/images/jpg/la-belle-flower.png",
+        "/images/jpg/la-belle-flower-2.png"
       ],
       "colors": [
-        { "name": "Gray", "value": "gray", "image": "/images/hoodies/hoodie-1.png" }
+        { "name": "Orange", "value": "Orange"}
       ],
-      "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
+      "sizes": ["50ml", "100ml", "150ml"]
     },
     {
-      "id": "acme-hoodie-002",
-      "name": "Acme Classic Hoodie - Black",
-      "category": "hoodies",
-      "price": 49.99,
-      "description": "Cozy pullover hoodie made from premium cotton blend. Features kangaroo pocket and adjustable drawstring hood.",
+      "id": "la-belle-paradise",
+      "name": "La belle Paradise Garden",
+      "category": "la-belle",
+      "price": 130.00,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "inStock": true,
       "images": [
-        "/images/hoodies/hoodie-2.png"
+        "/images/jpg/la-belle-paradise.png",
+        "/images/jpg/la-belle-paradise-2.png"
       ],
       "colors": [
-        { "name": "Black", "value": "black", "image": "/images/hoodies/hoodie-2.png" }
+        { "name": "Blue", "value": "blue"}
       ],
-      "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
-    },
-    {
-      "id": "acme-bomber-001",
-      "name": "Acme Bomber Jacket",
-      "category": "jackets",
-      "price": 99.99,
-      "description": "Classic bomber jacket with ribbed cuffs and hem. Water-resistant fabric with cozy interior lining.",
-      "inStock": true,
-      "images": [
-        "/images/jackets/bomber-jacket-army.png",
-        "/images/jackets/bomber-jacket-black.png"
-      ],
-      "colors": [
-        { "name": "Army Green", "value": "army", "image": "/images/jackets/bomber-jacket-army.png" },
-        { "name": "Black", "value": "black", "image": "/images/jackets/bomber-jacket-black.png" }
-      ],
-      "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
-    },
-    {
-      "id": "acme-onesie-001",
-      "name": "Acme Baby Onesie",
-      "category": "kids",
-      "price": 19.99,
-      "description": "Super soft organic cotton onesie for babies. Features snap closures for easy diaper changes and adorable Acme branding.",
-      "inStock": true,
-      "images": [
-        "/images/kids/baby-onesie-beige-1.png",
-        "/images/kids/baby-onesie-beige-2.png",
-        "/images/kids/baby-onesie-black-1.png",
-        "/images/kids/baby-onesie-black-2.png",
-        "/images/kids/baby-onesie-white-1.png"
-      ],
-      "colors": [
-        { "name": "Beige", "value": "beige", "image": "/images/kids/baby-onesie-beige-1.png" },
-        { "name": "Black", "value": "black", "image": "/images/kids/baby-onesie-black-1.png" },
-        { "name": "White", "value": "white", "image": "/images/kids/baby-onesie-white-1.png" }
-      ],
-      "sizes": ["0-3M", "3-6M", "6-12M", "12-18M"]
-    },
-    {
-      "id": "acme-dog-sweater-001",
-      "name": "Acme Dog Sweater - Red",
-      "category": "pets",
-      "price": 24.99,
-      "description": "Keep your furry friend warm and stylish with this cozy knit sweater. Features stretchy material for comfortable fit.",
-      "inStock": true,
-      "images": [
-        "/images/pets/dog-sweater-1.png"
-      ],
-      "colors": [
-        { "name": "Red", "value": "red", "image": "/images/pets/dog-sweater-1.png" }
-      ],
-      "sizes": ["XS", "S", "M", "L"]
-    },
-    {
-      "id": "acme-dog-sweater-002",
-      "name": "Acme Dog Sweater - Gray",
-      "category": "pets",
-      "price": 24.99,
-      "description": "Keep your furry friend warm and stylish with this cozy knit sweater. Features stretchy material for comfortable fit.",
-      "inStock": true,
-      "images": [
-        "/images/pets/dog-sweater-2.png"
-      ],
-      "colors": [
-        { "name": "Gray", "value": "gray", "image": "/images/pets/dog-sweater-2.png" }
-      ],
-      "sizes": ["XS", "S", "M", "L"]
-    },
-    {
-      "id": "acme-tshirt-001",
-      "name": "Acme Classic T-Shirt - White",
-      "category": "shirts",
-      "price": 24.99,
-      "description": "Premium cotton t-shirt with the iconic Acme logo. Soft, breathable, and perfect for everyday wear.",
-      "inStock": true,
-      "images": [
-        "/images/shirts/t-shirt-1.png"
-      ],
-      "colors": [
-        { "name": "White", "value": "white", "image": "/images/shirts/t-shirt-1.png" }
-      ],
-      "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
-    },
-    {
-      "id": "acme-tshirt-002",
-      "name": "Acme Classic T-Shirt - Black",
-      "category": "shirts",
-      "price": 24.99,
-      "description": "Premium cotton t-shirt with the iconic Acme logo. Soft, breathable, and perfect for everyday wear.",
-      "inStock": true,
-      "images": [
-        "/images/shirts/t-shirt-2.png"
-      ],
-      "colors": [
-        { "name": "Black", "value": "black", "image": "/images/shirts/t-shirt-2.png" }
-      ],
-      "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
-    },
-    {
-      "id": "acme-tshirt-003",
-      "name": "Acme Circles T-Shirt",
-      "category": "shirts",
-      "price": 27.99,
-      "description": "Unique geometric design t-shirt featuring colorful circles. Made from ultra-soft cotton for maximum comfort.",
-      "inStock": true,
-      "images": [
-        "/images/shirts/t-shirt-1.png",
-        "/images/shirts/t-shirt-2.png",
-        "/images/shirts/t-shirt-circles-blue.png"
-      ],
-      "colors": [
-        { "name": "Black", "value": "black", "image": "/images/shirts/t-shirt-2.png" },
-        { "name": "White", "value": "white", "image": "/images/shirts/t-shirt-1.png" },
-        { "name": "Blue", "value": "blue", "image": "/images/shirts/t-shirt-circles-blue.png" }
-      ],
-      "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
-    },
-    {
-      "id": "acme-sticker-001",
-      "name": "Acme Rainbow Sticker",
-      "category": "stickers",
-      "price": 3.99,
-      "description": "Vibrant rainbow gradient sticker featuring the Acme logo. Weather-resistant and perfect for laptops, water bottles, and more.",
-      "inStock": true,
-      "images": [
-        "/images/stickers/sticker-rainbow.png"
-      ],
-      "colors": [
-        { "name": "Rainbow", "value": "rainbow", "image": "/images/stickers/sticker-rainbow.png" }
-      ],
-      "sizes": ["3x3 inches"]
+      "sizes": ["50ml", "100ml", "150ml"]
     }
   ]
 }
