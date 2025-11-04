@@ -38,7 +38,7 @@ export default function Header() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="relative text-sm text-neutral-500 transition-colors hover:text-black after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-200 hover:after:w-full"
+                  className="relative text-sm text-neutral-500 transition-colors hover:text-white after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-white after:transition-all after:duration-200 hover:after:w-full"
                 >
                   {item.name}
                 </a>
