@@ -3,7 +3,7 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Card from "@/components/ui/card";
-import AddToCart from "@/components/ui/button";
+import AddToCart from "@/components/ui/add-to-card";
 import VariantSelector from "@/components/ui/songolt";
 import productsData from "@/data/products.json";
 import { useState, use } from "react";
