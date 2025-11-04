@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "src/components/ui/songolt.js", "src/components/ui/add-to-card.tsx", "src/components/ui/card.js", "src/components/ui/logo.js", "src/components/ui/une_tsenher.js", "src/components/ui/search.js", "src/components/layout/footer.js", "src/components/layout/header.js", "src/app/page.js", "src/app/search/[[...category]]/page.js", "src/app/product/[id]/page.tsx", "src/app/about/page.js", "src/app/terms/page.tsx", "src/app/layout.tsx"  ],
+, "src/components/ui/songolt.js", "src/components/ui/button.js", "src/components/ui/card.js", "src/components/ui/logo.js", "src/components/ui/une_tsenher.js", "src/components/ui/search.js", "src/components/layout/footer.js", "src/components/layout/header.js", "src/app/page.js", "src/app/search/[[...category]]/page.js", "src/app/product/[id]/page.tsx", "src/app/about/page.js", "src/app/terms/page.tsx", "src/app/layout.tsx"  ],
   "exclude": ["node_modules"]
 }

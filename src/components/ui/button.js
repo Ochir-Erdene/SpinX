@@ -1,18 +1,13 @@
-"use client";
+"use client"
 
-interface AddToCartProps {
-  disabled?: boolean;
-  onClick?: () => void;
-}
-
-export default function AddToCart({ disabled = false, onClick }: AddToCartProps) {
+export default function AddToCart({ disabled = false, onClick }) {
   return (
     <button
       onClick={onClick}
       disabled={disabled}
       aria-label={disabled ? "Please select an option" : "Add to cart"}
       className={`relative flex w-full items-center justify-center rounded-full bg-blue-600 p-4 tracking-wide text-white ${
-        disabled && "cursor-not-allowed opacity-60 hover:opacity-60"
+        disabled ? "cursor-not-allowed opacity-60 hover:opacity-60" : ""
       }`}
     >
       <div className="absolute left-0 ml-4">
@@ -33,5 +28,5 @@ export default function AddToCart({ disabled = false, onClick }: AddToCartProps)
       </div>
       Add To Cart
     </button>
-  );
+  )
 }
